@@ -71,4 +71,13 @@ const profile = async (req, res) => {
     });
 };
 
-module.exports = { register, login, profile };
+
+const socialCallback = (req, res) => {
+
+    const token = generateToken(req.user.id);
+
+    res.redirect(`http://localhost:3000/?token=${token}`);
+
+};
+
+module.exports = { register, login, profile , socialCallback };
