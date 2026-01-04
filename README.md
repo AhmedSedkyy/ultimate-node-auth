@@ -1,5 +1,7 @@
 # 🛡️ Ultimate Node Auth
 
+![Node.js](https://img.shields.io/badge/Node.js-green) ![Express.js](https://img.shields.io/badge/Express.js-black) ![MYSQL](https://img.shields.io/badge/MySQL-green)
+
 A robust, production-ready Authentication built with **Node.js**, **Express**, and **Sequelize (MySQL)**. 
 This project provides a secure foundation for user management, featuring Local Strategy (Email/Password), Social Login (Google & Facebook), and JWT-based authorization.
 
